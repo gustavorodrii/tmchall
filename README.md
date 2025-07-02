@@ -13,6 +13,7 @@ Este projeto demonstra uma aplicação Flutter com:
 - **Arquitetura Limpa** simplificada: camadas de apresentação, core e `features`, sem camada de use-cases.
 - **Integração** com **Flutter Secure Storage** para “Remember Me”.
 - **Publicado no Firebase Hosting** para acesso fácil via web.
+- **Uso do package flutter_dotenv para seguir padrão de segurança, removendo variáveis do código**
 
 [👉 Clique aqui para visualizar a aplicação web](https://tmchall-ef1fc.web.app)
 
