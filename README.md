@@ -18,63 +18,63 @@ Este projeto demonstra uma aplicação Flutter com:
 
 ## 📁 Arquitetura & Disposição de Pastas
 
+```bash
 lib/
-├── core/ ← Injeções, chaves, serviços globais
-│ ├── inject/
-│ │ └── bloc_providers.dart
-│ ├── key/
-│ │ └── navigator_key.dart
-│ └── services/
-│ └── remember_me_service.dart
+├── core/               # Injeções, chaves, serviços globais
+│   ├── inject/
+│   │   └── bloc_providers.dart
+│   ├── key/
+│   │   └── navigator_key.dart
+│   └── services/
+│       └── remember_me_service.dart
 │
-├── features/ ← Funcionalidades principais
-│ ├── auth/ ← Registro e login (Firebase Auth)
-│ │ ├── bloc/
-│ │ │ ├── auth_event.dart
-│ │ │ ├── auth_state.dart
-│ │ │ └── auth_bloc.dart
-│ │ └── presentation/
-│ │ ├── pages/
-│ │ │ ├── splash_page.dart
-│ │ │ └── login_register_page.dart
-│ │ └── widgets/ ← Formulários, botões, etc.
-│ │
-│ └── home/
-│ ├── bloc/
-│ │ ├── home_event.dart
-│ │ ├── home_state.dart
-│ │ └── home_bloc.dart
-│ └── presentation/
-│ ├── pages/
-│ │ └── home_page.dart
-│ └── widgets/ ← Seções, drawer menu
+├── features/           # Funcionalidades principais
+│   ├── auth/             # Registro e login (Firebase Auth)
+│   │   ├── bloc/
+│   │   │   ├── auth_event.dart
+│   │   │   ├── auth_state.dart
+│   │   │   └── auth_bloc.dart
+│   │   └── presentation/
+│   │       ├── pages/
+│   │       │   ├── splash_page.dart
+│   │       │   └── login_register_page.dart
+│   │       └── widgets/      # Formulários, botões, etc.
+│   │
+│   └── home/
+│       ├── bloc/
+│       │   ├── home_event.dart
+│       │   ├── home_state.dart
+│       │   └── home_bloc.dart
+│       └── presentation/
+│           ├── pages/
+│           │   └── home_page.dart
+│           └── widgets/      # Seções, drawer menu
 │
-├── shared/ ← Componentes e utilitários reutilizáveis
-│ ├── custom/
-│ │ └── custom_webview.dart
-│ └── utils/
-│ ├── webview_navigator.dart
-│ ├── rounded_input_text_field.dart
-│ ├── app_dialog_utils.dart
-│ └── placeholder_widget.dart
+├── shared/             # Componentes e utilitários reutilizáveis
+│   ├── custom/
+│   │   └── custom_webview.dart
+│   └── utils/
+│       ├── webview_navigator.dart
+│       ├── rounded_input_text_field.dart
+│       ├── app_dialog_utils.dart
+│       └── placeholder_widget.dart
 │
-├── firebase_options.dart ← Gerado pelo FlutterFire CLI
-└── main.dart ← Entry point da aplicação
+├── firebase_options.dart 
+└── main.dart             
+```
+
 
 
 ## 🛠️ Pré-requisitos
 
 - Flutter **3.27.0**  
-- Dart 3.x  
 - Android Studio ou VS Code  
-- Conta e projeto Firebase configurados  
-- FlutterFire CLI (opcional, para reconfigurar `firebase_options.dart`)
 
 ## ⚙️ Como Rodar o Projeto
 
 1. **Clone** este repositório  
    ```bash
-   git clone <seu-repo-url>.git
+   git clone https://github.com/gustavorodrii/tmchall.git
    cd tmchall
 
 flutter pub get
@@ -87,6 +87,7 @@ Todos os testes estão em test/:
 
 auth_bloc_test.dart
 home_page_test.dart
+
 Para executar todos:
 
 flutter test
