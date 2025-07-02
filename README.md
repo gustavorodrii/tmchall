@@ -1,5 +1,9 @@
 # tmchall
 
+## **Conta teste, ou se preferir, pode Cadastrar uma nova através do app/web** ##
+- Email: teste@tokio.com
+- Senha : 123456
+
 **Flutter 3.27.0** • BLoC • Clean Architecture  • Firebase Auth • Secure Storage • Responsive (mobile/web)
 
 ## 🚀 Visão Geral
