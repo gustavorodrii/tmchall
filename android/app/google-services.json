@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692388655160",
+    "project_id": "tmchall-ef1fc",
+    "storage_bucket": "tmchall-ef1fc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692388655160:android:2c83899e9649bcaa1fb6cd",
+        "android_client_info": {
+          "package_name": "com.example.tmchall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEu6tRknX5TkspHG_2cGEsa_Cc2mbf8qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
