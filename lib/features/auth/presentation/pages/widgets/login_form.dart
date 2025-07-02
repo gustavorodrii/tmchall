@@ -18,6 +18,7 @@ class LoginForm extends StatelessWidget {
         ),
         const SizedBox(height: 12),
         RoundedInputField(
+          obscureText: true,
           controller: bloc.passwordController,
           hintText: 'Senha',
         ),
