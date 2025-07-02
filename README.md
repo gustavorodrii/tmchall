@@ -85,14 +85,14 @@ flutter run
 
 Todos os testes estão em test/:
 
-auth_bloc_test.dart
-home_page_test.dart
+- auth_bloc_test.dart
+- home_page_test.dart
 
-Para executar todos:
+## Para executar todos:
 
 flutter test
 
 ## Para executar um teste específico:
 
-flutter test test/auth_bloc_test.dart
-flutter test test/home_page_test.dart
+- flutter test test/auth_bloc_test.dart
+- flutter test test/home_page_test.dart
