@@ -6,7 +6,7 @@
 
 Este projeto demonstra uma aplicação Flutter com:
 
-- **Splash Screen** que verifica se CPF e senha estão salvos em Secure Storage e redireciona para Home ou Login/Cadastro.
+- **Splash Screen** que verifica se Email e Senha estão salvos em Secure Storage e redireciona para Home ou Login/Cadastro.
 - **Autenticação** via **Firebase Authentication** para registro de usuário e login.
 - **Tela de Login/Cadastro** unificada, controlada por BLoC, onde você alterna entre “Entrar” e “Cadastrar” por meio de eventos.
 - **Home Page** com cards de cotação (placeholder), efeito de carregamento inicial (Shimmer) e menu lateral (Drawer) para navegação.
